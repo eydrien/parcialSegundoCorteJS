@@ -1,3 +1,4 @@
+function calculate (op){
 // Parseo en JavaScript
 var num1 = parseFloat(document.getElementById('num1').value) || 0;
 var num1 = parseFloat(document.getElementById('num2').value) || 0;
@@ -23,6 +24,9 @@ switch (op) {
         result = num1 / num2;
         break;
     default:
-        result = "ERROR 404 jaja"
+        result = "ERROR jaja"
     // ...
+}
+    /* mostrar resultado */
+    document.getElementById('result').value = result;
 }
