@@ -1,5 +1,8 @@
 // Parseo en JavaScript
-var variable = parseFloat(document...('XXX').value) || 0;
+var num1 = parseFloat(document.getElementById('num1').value) || 0;
+var num1 = parseFloat(document.getElementById('num2').value) || 0;
+
+let result;
 
 // Switch en JavaScript
 switch (op) {
@@ -19,5 +22,7 @@ switch (op) {
         // código a efectuar
         result = num1 / num2;
         break;
+    default:
+        result = "ERROR 404 jaja"
     // ...
 }
